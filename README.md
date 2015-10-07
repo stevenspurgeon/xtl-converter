@@ -11,13 +11,11 @@ To download the VESTA crystal viewer, please visit:
 
 ## Installation and Usage
 
-Requirements: Python Environment (2.7+) and input VESTA file
+Requirements: Python Environment (2.7+) and input VESTA fractional coordinates (`*.xtl`) file
 
-Input File: The program takes an input VESTA fractional coordinates (*.xtl) file. First build your crystal in VESTA and apply any coordinate transformation needed to align the principal axes to the zone-axis of interest. Then export the fractional coordinates.
+First build your crystal in VESTA and apply any coordinate transformation needed to align the principal axes to the zone-axis of interest. Then export the fractional coordinates to a `*.xtl` file and copy it to the folder containing this script.
 
-Next copy the script to the folder containing your input VESTA file.
-
-To run: Execute the command 'python xtl_converter.py input.xtl'
+To run: Execute the command `python xtl_converter.py input.xtl`
 
 ## History
 
