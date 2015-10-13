@@ -17,9 +17,15 @@ First build your crystal in VESTA and apply any coordinate transformation needed
 
 To run: Execute the command `python xtl_converter.py input.xtl`
 
+## Reference
+
+If you find this script useful, please cite the following reference:
+[![DOI](https://zenodo.org/badge/18751/stevenspurgeon/xtl-converter.svg)](https://zenodo.org/badge/latestdoi/18751/stevenspurgeon/xtl-converter)
+
 ## History
 
-v1.0 – 10/07/15 – Initial release.
+v1.0.1 – 10/07/15 – Added citation support.
+v1.0 – 10/13/15 – Initial release.
 
 ## Credits
 
