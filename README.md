@@ -24,6 +24,8 @@ If you find this script useful, please cite the following reference:
 
 ## History
 
+v1.1.1 – 11/02/15 – Significantly expanded the element lookup table.
+
 v1.0.1 – 10/07/15 – Added citation support.
 
 v1.0 – 10/13/15 – Initial release.
