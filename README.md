@@ -15,7 +15,16 @@ Requirements: Python Environment (2.7+) and input VESTA fractional coordinates (
 
 First build your crystal in VESTA and apply any coordinate transformation needed to align the principal axes to the zone-axis of interest. Then export the fractional coordinates to a `*.xtl` file and copy it to the folder containing this script.
 
-To run: Execute the command `python xtl_converter.py input.xtl`
+To run on OSX, execute the command `python xtl_converter.py input.xtl` from the terminal.
+
+To run on Windows, make sure the extension `*.py` is associated with Python, then execute the command `xtl_converter.py input.xtl` from the command line.
+
+
+## Frequently Asked Questions (FAQ)
+
+1. **The program says it can't find a symbol and is crashing.**
+
+XTL-Converter uses a lookup table of Debye-Waller factors (DWFs). While I've incldued these for many different elements, some are missing and not all space groups are included. You can add your own values by modifying the table in the first half of the program. The format is: `"Element Symbol", "Atomic Number", "Fractional Occupancy", "DWF / (8 * Pi^2)"`
 
 ## Reference
 
