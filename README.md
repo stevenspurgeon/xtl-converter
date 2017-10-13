@@ -33,6 +33,8 @@ If you find this script useful, please cite the following reference:
 
 ## History
 
+v1.2.1 – 10/13/17 – Fixed typo in O Debye-Waller Factor.
+
 v1.2 – 10/11/16 – Rewrote code to run under Python 3.5.10. The old version will no longer be supported.
 
 v1.1.1 – 11/02/15 – Significantly expanded the element lookup table.
